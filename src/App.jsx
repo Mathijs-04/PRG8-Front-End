@@ -6,6 +6,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
     },
+    { basename: "/PRG8-Front-End" }
 ]);
 
 function App() {
