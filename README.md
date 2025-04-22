@@ -11,20 +11,20 @@ This is the frontend for the Dungeons & Dragons 5e Assistant. It provides a simp
 ## 🛠️ Installation
 
 1. Clone the repository:
-   ``bash
+   `bash
    git clone https://github.com/your-username/dd5e-frontend.git
    cd dd5e-frontend
-   ```
+   `
 
 2. Install dependencies:
-   ``bash
+   `bash
    npm install
-   ```
+   `
 
 3. Start the development server:
-   ``bash
+   `bash
    npm run dev
-   ``
+   `
 
 > The frontend communicates with the backend at `http://145.24.223.130:8000`. Make sure the backend is running and accessible.
 
