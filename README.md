@@ -1,12 +1,36 @@
-# React + Vite
+# D&D 5e Assistant – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the Dungeons & Dragons 5e Assistant. It provides a simple and interactive interface for users to ask rules-related questions and get accurate answers based on the official 5e ruleset. It also features a daily random monster viewer.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ask questions based on the D&D 5e ruleset.
+- View a randomly selected monster each session.
+- Live chat UI with streaming responses from the backend.
 
-## Expanding the ESLint configuration
+## 🛠️ Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+   ``bash
+   git clone https://github.com/your-username/dd5e-frontend.git
+   cd dd5e-frontend
+   ```
+
+2. Install dependencies:
+   ``bash
+   npm install
+   ```
+
+3. Start the development server:
+   ``bash
+   npm run dev
+   ``
+
+> The frontend communicates with the backend at `http://145.24.223.130:8000`. Make sure the backend is running and accessible.
+
+## 🧯 Troubleshooting
+
+- **CORS errors**: Make sure you're accessing the correct backend URL and that the backend has CORS enabled.
+- **Insecure content warning in Chrome**: Add `http://145.24.223.130:8000` to Chrome's [insecure content exceptions](chrome://settings/content/insecureContent).
+- **Network errors**: Ensure your backend is running and accessible on port `8000`.
+
