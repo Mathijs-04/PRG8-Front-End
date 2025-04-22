@@ -11,20 +11,19 @@ This is the frontend for the Dungeons & Dragons 5e Assistant. It provides a simp
 ## 🛠️ Installation
 
 1. Clone the repository:
-   `bash
+   ```bash
    git clone https://github.com/your-username/dd5e-frontend.git
-   cd dd5e-frontend
-   `
+   ```
 
 2. Install dependencies:
-   `bash
+   ```bash
    npm install
-   `
+   ```
 
 3. Start the development server:
-   `bash
+   ```bash
    npm run dev
-   `
+   ```
 
 > The frontend communicates with the backend at `http://145.24.223.130:8000`. Make sure the backend is running and accessible.
 
@@ -33,4 +32,3 @@ This is the frontend for the Dungeons & Dragons 5e Assistant. It provides a simp
 - **CORS errors**: Make sure you're accessing the correct backend URL and that the backend has CORS enabled.
 - **Insecure content warning in Chrome**: Add `http://145.24.223.130:8000` to Chrome's [insecure content exceptions](chrome://settings/content/insecureContent).
 - **Network errors**: Ensure your backend is running and accessible on port `8000`.
-
