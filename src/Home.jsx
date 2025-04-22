@@ -34,7 +34,7 @@ function Home() {
         setHumanMessage('');
 
         try {
-            const res = await fetch('http://145.24.223.130:8000/question', {U
+            const res = await fetch('http://145.24.223.130:8000/question', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
