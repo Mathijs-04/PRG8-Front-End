@@ -81,7 +81,7 @@ function Home() {
 
     const resetConversation = async () => {
         try {
-            await fetch('http://localhost:8000/reset', {
+            await fetch('http://145.24.223.130:8000/reset', {
                 method: 'POST',
             });
             setMessages([]);
@@ -94,7 +94,7 @@ function Home() {
     const fetchRandomMonster = async () => {
         setLoading(true);
         try {
-            const res = await fetch('http://localhost:8000/new-monster', {
+            const res = await fetch('http://145.24.223.130:8000/new-monster', {
                 method: 'POST',
             });
             const data = await res.json();
